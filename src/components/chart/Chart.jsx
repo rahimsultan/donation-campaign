@@ -41,7 +41,7 @@ const Chart = ({datas}) => {
       }
      const percentage =  funChart()
 
-     console.log(percentage);
+    //  console.log(percentage);
 
 
 

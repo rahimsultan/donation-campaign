@@ -29,7 +29,7 @@ const Details = () => {
     }
 
   return (
-    <div className="mt-28 max-w-7xl mx-auto lg:px-8">
+    <div className="mt-28 max-w-7xl mx-auto lg:px-8 px-4">
         <div className="h-[55vh] relative">
             <img className="h-full w-full object-cover" src={image} alt="" />
             <div className="absolute bg-black opacity-60 bottom-0 h-[100px] right-0 left-0">

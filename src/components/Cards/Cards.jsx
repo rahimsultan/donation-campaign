@@ -1,14 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import SearchContext from "../Context/SearchContext";
 import Card from '../card/Card';
 
-const Cards = ({datas}) => {
-  // console.log(datas);
+const Cards = () => {
+  const {data} = useContext(SearchContext)
   return (
+    data.length > 0 ?
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-10 lg:gap-10 gap-5'>
       {
-        datas.map(data=> <Card key={data.id} data={data}/>)
+        data.map(data=> <Card key={data.id} data={data}/>)
       }
-    </div>
+    </div> : <div className='my-10'><h3 className='font-bold text-center text-xl'>No Data Maching to Your Search Result</h3></div>
   )
 }
 

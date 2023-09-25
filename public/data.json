@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "image": "https://i.ibb.co/7QzDMMF/Health.png",
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1706&q=80",
     "title": "Healthy Lifestyle Kit",
     "category": "Health",
     "card_bg": "#0052ff26",
@@ -12,29 +12,29 @@
   },
   {
     "id": "2",
-    "image": "https://i.ibb.co/4Sqmf9P/Food.png",
-    "title": "Organic Food Basket",
-    "category": "Food",
-    "card_bg": "#79c23f26",
-    "btn_bg": "#79c23f33",
-    "text_bg": "#79C23F",
-    "description": "Indulge in the finest organic foods with our Organic Food Basket. This basket is filled with fresh fruits, vegetables, and gourmet delights for a healthy and delicious dining experience.",
-    "price": 49.99
+    "image": "https://images.unsplash.com/photo-1548103550-603e712c899a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    "title": "Casual Everyday Attire",
+    "category": "Clothing",
+    "card_bg": "#f8714726",
+    "btn_bg": "#f8714733",
+    "text_bg": "#F87147",
+    "description": "Elevate your everyday style with our Casual Everyday Attire collection. Find comfortable and chic clothing options for any occasion.",
+    "price": 19.99
   },
   {
     "id": "3",
-    "image": "https://i.ibb.co/p2pRKjq/Education.png",
-    "title": "Online Learning Platform",
-    "category": "Education",
-    "card_bg": "#ff444a26",
-    "btn_bg": "#ff444a33",
-    "text_bg": "#FF444A",
-    "description": "Access a world of knowledge with our Online Learning Platform. Enroll in courses taught by industry experts and expand your horizons from the comfort of your home.",
-    "price": 79.99
+    "image": "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    "title": "Fitness Tracker Watch",
+    "category": "Health",
+    "card_bg": "#0052ff26",
+    "btn_bg": "#0052ff33",
+    "text_bg": "#0052FF",
+    "description": "Monitor your health and workouts with our Fitness Tracker Watch. This smartwatch keeps you on track with your fitness goals and provides real-time health insights.",
+    "price": 149.99
   },
   {
     "id": "4",
-    "image": "https://i.ibb.co/pWTXzND/Clothing.png",
+    "image": "https://images.pexels.com/photos/135620/pexels-photo-135620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "title": "Fashion Forward Wardrobe",
     "category": "Clothing",
     "card_bg": "#f8714726",
@@ -45,29 +45,29 @@
   },
   {
     "id": "5",
-    "image": "https://i.ibb.co/7QzDMMF/Health.png",
-    "title": "Fitness Tracker Watch",
-    "category": "Health",
-    "card_bg": "#0052ff26",
-    "btn_bg": "#0052ff33",
-    "text_bg": "#0052FF",
-    "description": "Monitor your health and workouts with our Fitness Tracker Watch. This smartwatch keeps you on track with your fitness goals and provides real-time health insights.",
-    "price": 149.99
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
+    "title": "Online Learning Platform",
+    "category": "Education",
+    "card_bg": "#ff444a26",
+    "btn_bg": "#ff444a33",
+    "text_bg": "#FF444A",
+    "description": "Access a world of knowledge with our Online Learning Platform. Enroll in courses taught by industry experts and expand your horizons from the comfort of your home.",
+    "price": 79.99
   },
   {
     "id": "6",
-    "image": "https://i.ibb.co/4Sqmf9P/Food.png",
-    "title": "Gourmet Cooking Class",
+    "image": "https://images.pexels.com/photos/7262789/pexels-photo-7262789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Organic Food Basket",
     "category": "Food",
     "card_bg": "#79c23f26",
     "btn_bg": "#79c23f33",
     "text_bg": "#79C23F",
-    "description": "Master the art of gourmet cooking with our Gourmet Cooking Class. Learn from renowned chefs and prepare restaurant-quality meals in your own kitchen.",
-    "price": 39.99
+    "description": "Indulge in the finest organic foods with our Organic Food Basket. This basket is filled with fresh fruits, vegetables, and gourmet delights for a healthy and delicious dining experience.",
+    "price": 49.99
   },
   {
     "id": "7",
-    "image": "https://i.ibb.co/p2pRKjq/Education.png",
+    "image": "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1742&q=80",
     "title": "Online Language Course",
     "category": "Education",
     "card_bg": "#ff444a26",
@@ -78,29 +78,29 @@
   },
   {
     "id": "8",
-    "image": "https://i.ibb.co/pWTXzND/Clothing.png",
-    "title": "Casual Everyday Attire",
+    "image": "https://images.pexels.com/photos/2071562/pexels-photo-2071562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Gourmet Cooking Class",
+    "category": "Food",
+    "card_bg": "#79c23f26",
+    "btn_bg": "#79c23f33",
+    "text_bg": "#79C23F",
+    "description": "Master the art of gourmet cooking with our Gourmet Cooking Class. Learn from renowned chefs and prepare restaurant-quality meals in your own kitchen.",
+    "price": 39.99
+  },
+  {
+    "id": "9",
+    "image": "https://images.pexels.com/photos/2517866/pexels-photo-2517866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Designer Clothing Collection",
     "category": "Clothing",
     "card_bg": "#f8714726",
     "btn_bg": "#f8714733",
     "text_bg": "#F87147",
-    "description": "Elevate your everyday style with our Casual Everyday Attire collection. Find comfortable and chic clothing options for any occasion.",
-    "price": 19.99
-  },
-  {
-    "id": "9",
-    "image": "https://i.ibb.co/7QzDMMF/Health.png",
-    "title": "Yoga and Meditation Retreat",
-    "category": "Health",
-    "card_bg": "#0052ff26",
-    "btn_bg": "#0052ff33",
-    "text_bg": "#0052FF",
-    "description": "Rejuvenate your mind and body with our Yoga and Meditation Retreat. Escape to serene locations and explore the benefits of mindfulness and relaxation.",
-    "price": 299.99
+    "description": "Embrace luxury and style with our Designer Clothing Collection. Discover exclusive pieces from top fashion designers to elevate your wardrobe.",
+    "price": 24.99
   },
   {
     "id": "10",
-    "image": "https://i.ibb.co/4Sqmf9P/Food.png",
+    "image": "https://images.unsplash.com/photo-1520869309377-88c9274a27c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
     "title": "Farm-to-Table Dining Experience",
     "category": "Food",
     "card_bg": "#79c23f26",
@@ -111,7 +111,7 @@
   },
   {
     "id": "11",
-    "image": "https://i.ibb.co/p2pRKjq/Education.png",
+    "image": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
     "title": "Advanced Coding Bootcamp",
     "category": "Education",
     "card_bg": "#ff444a26",
@@ -122,13 +122,13 @@
   },
   {
     "id": "12",
-    "image": "https://i.ibb.co/pWTXzND/Clothing.png",
-    "title": "Designer Clothing Collection",
-    "category": "Clothing",
-    "card_bg": "#f8714726",
-    "btn_bg": "#f8714733",
-    "text_bg": "#F87147",
-    "description": "Embrace luxury and style with our Designer Clothing Collection. Discover exclusive pieces from top fashion designers to elevate your wardrobe.",
-    "price": 24.99
+    "image": "https://images.pexels.com/photos/4498606/pexels-photo-4498606.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "title": "Yoga and Meditation Retreat",
+    "category": "Health",
+    "card_bg": "#0052ff26",
+    "btn_bg": "#0052ff33",
+    "text_bg": "#0052FF",
+    "description": "Rejuvenate your mind and body with our Yoga and Meditation Retreat. Escape to serene locations and explore the benefits of mindfulness and relaxation.",
+    "price": 299.99
   }
 ]
