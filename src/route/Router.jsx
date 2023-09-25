@@ -3,6 +3,7 @@ import {
 } from "react-router-dom";
 
 import Mainlayout from "../layout/Mainlayout";
+import Details from "../pages/details/Details";
 import Donation from "../pages/donation/Donation";
 import Home from "../pages/home/Home";
 import Statistics from "../pages/statistics/Statistics";
@@ -24,6 +25,11 @@ const Router = createBrowserRouter([
             {
                 path:'/statistics',
                 element: <Statistics/>
+            },
+            {
+                path:'/:category/:id',
+                element: <Details/>,
+                loader: ()=>fetch('/data.json')
             }
         ]
     }

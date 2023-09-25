@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Card = ({data}) => {
   const {id, image, title, card_bg, btn_bg, text_bg, category} = data
   return (
-    <div onClick={()=> 'button clicked'} className=" rounded-md border" style={{backgroundColor:card_bg, color:text_bg}}>
+    <Link to={`/${category}/${id}`}>
+    <div className=" rounded-md border" style={{backgroundColor:card_bg, color:text_bg}}>
       <img
         src={image}
         alt={category}
@@ -20,6 +22,7 @@ const Card = ({data}) => {
         <h1 className=" mt-2 text-lg font-semibold">{title}</h1>
       </div>
     </div>
+    </Link>
   )
 }
 
