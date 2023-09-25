@@ -8,7 +8,7 @@
     "btn_bg": "#0052ff33",
     "text_bg": "#0052FF",
     "description": "Achieve your wellness goals with our Healthy Lifestyle Kit. This comprehensive kit includes fitness equipment, nutritional supplements, and expert guidance.",
-    "price": "$199.99"
+    "price": 199.99
   },
   {
     "id": "2",
@@ -19,7 +19,7 @@
     "btn_bg": "#79c23f33",
     "text_bg": "#79C23F",
     "description": "Indulge in the finest organic foods with our Organic Food Basket. This basket is filled with fresh fruits, vegetables, and gourmet delights for a healthy and delicious dining experience.",
-    "price": "$49.99"
+    "price": 49.99
   },
   {
     "id": "3",
@@ -30,7 +30,7 @@
     "btn_bg": "#ff444a33",
     "text_bg": "#FF444A",
     "description": "Access a world of knowledge with our Online Learning Platform. Enroll in courses taught by industry experts and expand your horizons from the comfort of your home.",
-    "price": "$79.99"
+    "price": 79.99
   },
   {
     "id": "4",
@@ -41,7 +41,7 @@
     "btn_bg": "#f8714733",
     "text_bg": "#F87147",
     "description": "Stay stylish with our Fashion Forward Wardrobe collection. Discover the latest trends in clothing, accessories, and footwear to express your unique style.",
-    "price": "$29.99"
+    "price": 29.99
   },
   {
     "id": "5",
@@ -52,7 +52,7 @@
     "btn_bg": "#0052ff33",
     "text_bg": "#0052FF",
     "description": "Monitor your health and workouts with our Fitness Tracker Watch. This smartwatch keeps you on track with your fitness goals and provides real-time health insights.",
-    "price": "$149.99"
+    "price": 149.99
   },
   {
     "id": "6",
@@ -63,7 +63,7 @@
     "btn_bg": "#79c23f33",
     "text_bg": "#79C23F",
     "description": "Master the art of gourmet cooking with our Gourmet Cooking Class. Learn from renowned chefs and prepare restaurant-quality meals in your own kitchen.",
-    "price": "$39.99"
+    "price": 39.99
   },
   {
     "id": "7",
@@ -74,7 +74,7 @@
     "btn_bg": "#ff444a33",
     "text_bg": "#FF444A",
     "description": "Become multilingual with our Online Language Course. Choose from a wide range of languages and embark on a journey of cultural exploration and communication.",
-    "price": "$99.99"
+    "price": 99.99
   },
   {
     "id": "8",
@@ -85,7 +85,7 @@
     "btn_bg": "#f8714733",
     "text_bg": "#F87147",
     "description": "Elevate your everyday style with our Casual Everyday Attire collection. Find comfortable and chic clothing options for any occasion.",
-    "price": "$19.99"
+    "price": 19.99
   },
   {
     "id": "9",
@@ -96,7 +96,7 @@
     "btn_bg": "#0052ff33",
     "text_bg": "#0052FF",
     "description": "Rejuvenate your mind and body with our Yoga and Meditation Retreat. Escape to serene locations and explore the benefits of mindfulness and relaxation.",
-    "price": "$299.99"
+    "price": 299.99
   },
   {
     "id": "10",
@@ -107,7 +107,7 @@
     "btn_bg": "#79c23f33",
     "text_bg": "#79C23F",
     "description": "Savor the freshness of farm-to-table cuisine with our Dining Experience. Enjoy locally sourced ingredients prepared by top chefs in a cozy setting.",
-    "price": "$69.99"
+    "price": 69.99
   },
   {
     "id": "11",
@@ -118,7 +118,7 @@
     "btn_bg": "#ff444a33",
     "text_bg": "#FF444A",
     "description": "Level up your coding skills with our Advanced Coding Bootcamp. Dive deep into programming languages and work on real-world projects to boost your career.",
-    "price": "$89.99"
+    "price": 89.99
   },
   {
     "id": "12",
@@ -129,6 +129,6 @@
     "btn_bg": "#f8714733",
     "text_bg": "#F87147",
     "description": "Embrace luxury and style with our Designer Clothing Collection. Discover exclusive pieces from top fashion designers to elevate your wardrobe.",
-    "price": "$24.99"
+    "price": 24.99
   }
 ]

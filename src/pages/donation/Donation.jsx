@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import DonatonCard from "../../components/donationcard/DonatonCard";
+import NoData from "../../components/nodatafound/NoData";
 import { getSavedItem } from "../../utility/localstorage";
 
 
@@ -26,6 +27,7 @@ const Donation = () => {
 
   
   return (
+    items.length > 0 ? 
     <div className="max-w-7xl mx-auto lg:px-8 mt-28">
     <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-10 gap-5">
       {
@@ -46,7 +48,7 @@ const Donation = () => {
       </button>
     </div>
     }
-    </div>
+    </div> : <NoData/>
   )
 }
 

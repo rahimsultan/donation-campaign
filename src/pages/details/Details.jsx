@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import swal from 'sweetalert';
-import { saveItemInLs } from "../../utility/localstorage";
+import { getSavedItem, saveItemInLs } from "../../utility/localstorage";
 
 const Details = () => {
     const datas = useLoaderData();
@@ -15,8 +15,17 @@ const Details = () => {
     const { image, title, text_bg, price, description} = card
 
     const handleDonate =(cardId)=>{
-        swal("Good Job!", "You Helped us!", "success");
-        saveItemInLs(cardId)
+       const savedItems = getSavedItem()
+        const exist = savedItems.find(item => item === cardId);
+
+        if(!exist){
+            swal("Good Job!", "You Helped us!", "success");
+            saveItemInLs(cardId)
+        }else{
+            swal("Opps!", "Already Donated!", "error");
+        }
+
+        
     }
 
   return (

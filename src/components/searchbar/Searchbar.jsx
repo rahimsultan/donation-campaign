@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export function Searchbar() {
+  const [searchText, setSearchText] = useState()
   return (
     <div className="flex max-w-full items-center space-x-2 z-20">
       <input

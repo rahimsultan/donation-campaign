@@ -8,8 +8,13 @@ function getSavedItem (){
 
 function saveItemInLs (itemId){
     const itemsArr = getSavedItem()
-    itemsArr.push(itemId)
-    localStorage.setItem('cardIds', JSON.stringify(itemsArr))
+    const exist = itemsArr.find(item => item === itemId)
+    if(!exist){
+        itemsArr.push(itemId)
+        localStorage.setItem('cardIds', JSON.stringify(itemsArr))
+    }
+    
 }
 
 export { getSavedItem, saveItemInLs };
+
