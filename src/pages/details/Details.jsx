@@ -1,18 +1,23 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import swal from 'sweetalert';
+import { saveItemInLs } from "../../utility/localstorage";
 
 const Details = () => {
     const datas = useLoaderData();
     const {id} = useParams();
     const [card, setCard]= useState('')
-    // console.log(id);
 
     useEffect(()=>{
         const item = datas.find(data=> data.id === id);
         setCard(item)
     },[])
-    console.log(card);
-    const { image, title, card_bg, btn_bg, text_bg, category, price, description} = card
+    const { image, title, text_bg, price, description} = card
+
+    const handleDonate =(cardId)=>{
+        swal("Good Job!", "You Helped us!", "success");
+        saveItemInLs(cardId)
+    }
 
   return (
     <div className="mt-28 max-w-7xl mx-auto lg:px-8">
@@ -21,6 +26,7 @@ const Details = () => {
             <div className="absolute bg-black opacity-60 bottom-0 h-[100px] right-0 left-0">
             </div>
                 <button
+                onClick={()=>handleDonate(card.id)}
                 style={{backgroundColor:text_bg}}
                     type="button"
                     className="rounded-md z-30 absolute bottom-8 left-10 px-3 py-2 text-sm font-semibold text-white shadow-sm"
