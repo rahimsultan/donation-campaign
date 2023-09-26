@@ -8,10 +8,10 @@ export function Searchbar({datas}) {
   // console.log(setData);
 
   const handleSearch =()=>{
-    const value = input.current.value
+    const value = input.current.value.toLowerCase()
     const itemArr =[]
     for(const data of datas){
-      if(value === data.category.toLowerCase()){
+      if(value === data.category.toLowerCase() || data.category.toLowerCase().includes(value)){
         itemArr.push(data)
       }
     }

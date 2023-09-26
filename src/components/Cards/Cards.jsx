@@ -10,7 +10,7 @@ const Cards = () => {
       {
         data.map(data=> <Card key={data.id} data={data}/>)
       }
-    </div> : <div className='my-10'><h3 className='font-bold text-center text-xl'>No Data Maching to Your Search Result</h3></div>
+    </div> : <div className='my-10'><h3 className='font-bold text-center text-xl'>No Data Matching to Your Search Result</h3></div>
   )
 }
 
